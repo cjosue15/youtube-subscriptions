@@ -1,0 +1,7 @@
+<p>list works!</p>
+
+<button (click)="cancel()">Cancel Subscription</button>
+
+<ul>
+  <li *ngFor="let item of characters$ | async">{{ item.name }}</li>
+</ul>
